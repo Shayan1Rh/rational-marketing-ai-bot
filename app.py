@@ -12,7 +12,7 @@ system_prompt = "You are a rational financial advisor. The user has $500 and mus
 
 # Initialize the Gemini model with the hidden system prompt
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash",
+    model_name="gemini-2.0-flash",
     system_instruction=system_prompt
 )
 
